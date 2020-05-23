@@ -10,6 +10,8 @@ app = dash.Dash(__name__,external_stylesheets=[BS])
 
 server = app.server
 
+app.title = 'Covid-19 Tracker'
+
 app.layout = build_layout
 
 register_callbacks(app)

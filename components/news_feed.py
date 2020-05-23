@@ -40,17 +40,14 @@ def news_feed(country="India") -> dbc.ListGroup:
             mydata = {"q":"coronavirus","language":"en",'apiKey':API_KEY}
             response = requests.get(URL,params=mydata)
             json_data = response.json()
-            print('inside else')
             tempdf = pd.DataFrame.from_records(json_data)
             
         total = json_data.get('totalResults')
-        print(total) 
         if total > 15:
             total = 15
         columns = ["title", "url", "source","published"]
         rowslist = []
         for item in range(total):
-            print(item)
             title = tempdf['articles'][item].get('title')
             url = tempdf['articles'][item].get('url')
             source = tempdf['articles'][item].get('source').get('name')
