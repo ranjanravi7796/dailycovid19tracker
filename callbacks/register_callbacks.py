@@ -2,7 +2,7 @@ from dash.dependencies import Input, Output
 from components import news_feed,draw_cases_graph
 import pandas as pd
 
-
+#read datasets from john hopkins 
 confirmed_global = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
 recovered_global = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
 deceased_global = pd.read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
@@ -22,7 +22,7 @@ def get_countries():
     return countries_list
 
 def onLoad_country_options():
-    '''Actions to perform upon initial page load'''
+    '''load country options in the dropdown'''
 
     country_options = (
         [{'label': country, 'value': country}

@@ -29,7 +29,7 @@ tab_selected_style = {
     "backgroundColor": color_bg,
 }
 
-#------------
+#News feed
 
 feed_tabs = dbc.Card(
     [
@@ -101,7 +101,7 @@ html.Div(
         ],no_gutters=True),
         dbc.Row([
 dbc.Col(feed_tabs,
-                className="left-col-twitter-feed-content",
+                className="left-col-news-feed-content",
                 width=12)
         ])
     ]

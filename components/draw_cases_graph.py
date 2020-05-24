@@ -9,7 +9,9 @@ import dash_html_components as html
 import dash_core_components as dcc
 import dash_bootstrap_components as dbc
 
-
+"""
+this function draws the plot and returns the figure object 
+"""
 def draw_cases_graph(confirm_increase,recover_increase,deceased_increase,dates):
     dict_temp = {'confirm_increase': confirm_increase, 'recover_increase': recover_increase, 'deceased_increase': deceased_increase}  
     cases_df = pd.DataFrame(dict_temp,index=dates)

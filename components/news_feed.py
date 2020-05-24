@@ -6,16 +6,12 @@ import pandas as pd
 import dash_bootstrap_components as dbc
 import dash_html_components as html
 
-#from final.cache import server_cache
-#from final.config import config
-
-
-#@server_cache.memoize(timeout=900)
-def news_feed(country="India") -> dbc.ListGroup:
-    """Displays newsfeed for a selected country
+"""Displays newsfeed for a selected country
     :return list_group: A bootstramp ListGroup containing ListGroupItem returns
     news feeds.
-    """
+"""
+def news_feed(country="India") -> dbc.ListGroup:
+   
     API_KEY = '75b0dd25fe9045d29596ff8f19432b97'
 
     URL = "https://newsapi.org/v2/top-headlines?"

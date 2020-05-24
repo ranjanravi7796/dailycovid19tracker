@@ -73,33 +73,9 @@
   margin: 0 !important;
 }
 
-/* First Row */
-.states-dropdown-container  {
-  /* margin: 2.5vh 0; */
-  margin: 0;
-  /* padding-bottom: 1vh; */
-}
-
 .top-bar-content-col {
   margin: 4vh 0 3.5vh 0;
   padding: 0;
-}
-
-/* Second Row */
-.middle-map-news-content.mt-3.no-gutters.row {
-  /* margin-top: 2% !important; */
-  margin-top: 0 !important;
-  border: none;
-  justify-content: space-evenly;
-}
-
-/* Third Row */
-.desktop .bottom-chart-row {
-  /* padding: 0; */
-  margin: 1.3% 0;
-  padding: 0 0.4%;
-  /* margin: 0; */
-  /* justify-content: center; */
 }
 
 /* Applies to all Cards 🎴 */
@@ -136,7 +112,7 @@
 
 
 
-/* cards inside the sidebar for tweets and news */
+/* cards inside the sidebar for newsfeed */
 
 .left-col-feed-cards-text .tweet-item.list-group-item {
   background-color: var(--card-bg-color);
@@ -151,7 +127,7 @@
 }
 
 
-.left-col-twitter-feed-content .left-tabs{
+.left-col-news-feed-content .left-tabs{
   font-size: var(--font-size-table-heading);
 }
 
@@ -172,7 +148,7 @@
   color: var(--nav-font-color);
 }
 
-/* Tweet/News Acticle Headline and source */
+/* News Acticle Headline and source */
 
 .news-txt-headline, .tweet-text {
   font-size: var(--font-size-feed-body);
@@ -202,49 +178,42 @@
   overflow-y: scroll;
   height: 73.5vh;
   scroll-behavior: smooth;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
 
 .left-col-feed-cards-text::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none;  
 }
 
 
-.left-col-twitter-feed-content {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+.left-col-news-feed-content {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
-.left-col-twitter-feed-content::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+.left-col-news-feed-content::-webkit-scrollbar { 
+  display: none; 
 }
 
-.left-col-twitter-feed-content .card-body {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+.left-col-news-feed-content .card-body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
   /* padding-left: 0;
   padding-right: 0; */
 }
 
-.left-col-twitter-feed-content .card-body::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+.left-col-news-feed-content .card-body::-webkit-scrollbar { 
+  display: none;  
 }
 
-.left-col-twitter-feed-content {
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+.left-col-news-feed-content {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
 }
 
-.left-col-twitter-feed-content::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+.left-col-news-feed-content::-webkit-scrollbar { 
+  display: none;  
 }
-
-
-/* ------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------ */
-/*                          👈 Left  Stats Table Sidebar                          */
-/* ------------------------------------------------------------------------------ */
-/* ------------------------------------------------------------------------------ */
 
 .right-col-news-feed-content.col-2 {
   margin-left: 0.3rem;
@@ -301,13 +270,13 @@
   
   /* Disable scroll bar */
   scroll-behavior: smooth;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
 }
 
 /* disable scroll bar */
 .stats-table::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none; 
 }
 
 .right-col-stats-content.col-2 .card-body {
@@ -362,27 +331,27 @@
   /* Match the height except minus the height of the "last updated" text */
   height: calc(60vh - 1rem - 16px);
   scroll-behavior: smooth;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-  scrollbar-width: none;  /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;  
   background: none;
   background-color: none;
 }
 
 .right-col-feed-cards-text::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none; 
 }
 
 .right-col-stats-content .col-2 .card .card-body::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none;  
 }
 
 .right-col-news-feed-content {
   -ms-overflow-style: none; 
-  scrollbar-width: none;  /* Firefox */
+  scrollbar-width: none;  
 }
 
 .right-col-news-feed-content::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none;  
 }
 
 .stats-table-div .card-body{
@@ -398,7 +367,7 @@
 
 /* disable scroll bar */
 .stats-table-div .card-body::-webkit-scrollbar { 
-  display: none;  /* Safari and Chrome */
+  display: none;  
 }
 
 .right-col-stats-content .col-2 .card .card-body {
