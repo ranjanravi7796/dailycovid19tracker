@@ -1,1 +1,1 @@
-"A small web page to display the daily cases count of covid-19 by countries with an interactive chart and also display the news headlines for each selected countries."
+"A web page developed using Dash and Flask to display the daily cases count of covid-19 by countries with an interactive chart developed with plotly and also display the news headlines for each selected countries."
