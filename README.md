@@ -1,1 +1,1 @@
-"A web page developed using Dash and Flask to display the daily cases count of covid-19 by countries with an interactive chart developed with plotly and also display the news headlines for each selected countries."
+"Developed a web application using the combination of Python Dash and Flask frameworks to visualize the daily count of COVID-19 cases by country. Implemented an interactive chart using Plotly library to display the trend and also integrated a feature to show the latest news headlines for each selected country."
